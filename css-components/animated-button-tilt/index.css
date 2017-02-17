@@ -1,0 +1,27 @@
+.button-tilt {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  animation: tilt 3s infinite ease;
+  margin-left: 230px;
+  margin-top: 145px;
+}
+
+/* keyframes */
+@keyframes tilt {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(25deg);
+  }
+  50% {
+    transform: rotateZ(0deg);
+  }
+  75% {
+    transform: rotateZ(-25deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  } 
+}
