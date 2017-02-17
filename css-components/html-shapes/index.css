@@ -1,0 +1,38 @@
+.rectangle {
+  background-color: #DDDDDD;
+                
+  /* Base */
+  width: 100px;
+  height: 100px;
+                
+  /* Addons */
+  box-shadow: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.circle {
+  background-color: lightgreen;
+                
+  /* Base */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+                
+  /* Addons */
+  box-shadow: none;
+}
+            
+.triangle {
+  /* Base */
+  width: 0;
+  height: 0;
+                
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid lightpink;
+                
+  /* Addons */
+  box-shadow: none;
+}
