@@ -5,6 +5,10 @@
   animation: tilt 3s infinite ease;
 }
 
+.button-tilt:hover {
+  cursor: pointer; 
+}
+
 /* keyframes */
 @keyframes tilt {
   0% {
