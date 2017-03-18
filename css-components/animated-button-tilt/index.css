@@ -1,3 +1,4 @@
+/** Button Tilt Infinite **/
 .button-tilt {
   padding: 15px;
   font-size: 20px;
@@ -8,6 +9,19 @@
 .button-tilt:hover {
   cursor: pointer; 
 }
+
+/** Button Tilt Infinite (on hover) **/
+.button-tilt-hover {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;  
+}
+
+.button-tilt-hover:hover {
+  cursor: pointer;
+  animation: tilt 3s infinite ease;
+}
+
 
 /* keyframes */
 @keyframes tilt {
