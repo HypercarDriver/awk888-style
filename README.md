@@ -1,3 +1,3 @@
 # awk888-style
 
-MAIN FILES NOT WORKING RIGHT NOW. DO NOT USE!
+Welcome to the awk888-style repo. This repo is mostly about fun little addons to your website.
