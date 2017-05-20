@@ -1,1 +1,25 @@
+/**
+ *
+ **/
 
+
+.img-small {
+  width: 150px;			
+}
+			
+.img-medium {
+  width: 300px;			
+}	
+			
+.img-large {
+  width: 500px;			
+}
+			
+.img-xlarge {
+  width: 750px;			
+}		
+			
+.img-frame {
+  border: 3px solid #DDD;
+  border-radius: 15px;			
+}
